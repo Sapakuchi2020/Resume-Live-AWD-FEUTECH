@@ -1,0 +1,87 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c6acec63;
+    color: #333;
+}
+
+.resume {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+}
+
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: -75px auto 25px;
+    display: block;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    border: 5px solid #ffffff;
+}
+
+.contact-info h1 {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.contact-info p {
+    text-align: center;
+    color: #666;
+    margin: 5px 0;
+}
+
+.section h2 {
+    border-bottom: 3px solid #5b4caf;
+    color: #333;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.section p, .section ul {
+    text-align: left;
+    line-height: 1.6;
+}
+
+.section ul li {
+    margin-bottom: 10px;
+}
+
+.section ul li:before {
+    content: '▹';
+    color: #614caf;
+    margin-right: 8px;
+}
+
+a {
+    color: #634caf;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .resume {
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .profile-picture img {
+        width: 120px;
+        height: 120px;
+        margin-top: -60px;
+    }
+}
+
